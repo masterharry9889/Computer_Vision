@@ -2,7 +2,7 @@ import cv2
 
 from random import randrange
 
-train = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+train = cv2.CascadeClassifier('Computer_vision/haarcascade_frontalface_default.xml')
 
 cam = cv2.VideoCapture(0)
 
